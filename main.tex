@@ -1,0 +1,95 @@
+\documentclass[a4paper,UTF8,zihao=-4,scheme=chinese]{ctexbook}
+\usepackage[backend=biber, maxbibnames=3, minbibnames=3, style=gb7714-2015,gbpub=false, gbnamefmt=lowercase,url=false]{biblatex} %% 文献处理宏包gbpub=false, 
+\usepackage[Chinesetype=工学, Englishtype=Science, Chinesedegree=博士, Englishdegree=Doctor]{WUTthesis}
+\usepackage[usenames, dvipsnames]{xcolor} %% 颜色宏包
+\usepackage{setspace} %% 调整行距的宏包
+\usepackage{graphicx} %% 和插图相关的宏包
+\usepackage{xeCJKfntef}%%导入下划线%%原代码\WUTmakesecondcover报错
+\usepackage{ifthen}%判断语句
+\usepackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=red,urlcolor=blue]{hyperref}  %设置超链接及其颜色，不想要参考文献引用有颜色的从这里修改
+\usepackage{geometry}%设置页面大小
+\usepackage{amssymb, amsfonts, amsmath, amsthm, mathtools} %% 和数学相关的一些宏包
+\usepackage{float}%流动体宏包
+\usepackage{setspace}%设置间距宏包
+\usepackage{caption} %标题
+\usepackage{booktabs}%画三线表用的
+\usepackage{array} %% 制表宏包
+\usepackage{multicol} %% 可以设置多列排版的宏包
+\usepackage{multirow} %% 可以设置多行排版的宏包
+\usepackage{enumerate} %%编号宏包
+\usepackage{verbatim}%%批量注释宏包	\begin{comment} ... \end{comment}
+\usepackage[linesnumbered,boxed,ruled,commentsnumbered,algochapter]{algorithm2e}%%算法包，注意设置所需可选项
+\usepackage{longtable} %%长表格，可以分页显示的表格
+\renewcommand{\algorithmcfname}{算法}
+
+\captionsetup[table]{labelsep=space} % 引用表时冒号改为空格
+\captionsetup[figure]{labelsep=space} % 图  
+
+\raggedbottom %%顶部对齐
+%% \parencite{Zhu2023} 中括号应用如文献[1]
+\newcommand{\kuocite}[1]{\scalebox{1.3}[1.3]{\raisebox{-0.65ex}{#1}}} %%自定义函数用于大括号应用，如文献[1]不啦不啦。
+\newcommand{\figref}[1]{图 \ref{#1} }
+\newcommand{\tabref}[1]{表 \ref{#1} }
+
+
+\renewcommand{\bibfont}{\zihao{5}} %% 设置参考文献字号五号
+
+\renewcommand{\theequation}{\thechapter-\arabic{equation}} %% 将公式代号中默认的“.”改为“-”
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}} %% 将插图代号中默认的“.”改为“-”
+\renewcommand{\thetable}{\thechapter-\arabic{table}} %% 将表格代号中默认的“.”改为“-”
+\renewcommand{\thealgocf}{\thechapter-\arabic{algocf}} %% 将算法代号中默认的“.”改为“-”
+
+\ctexset{chapter={format+={\zihao{-2}\heiti}, number={\arabic{chapter}}, beforeskip={6pt},afterskip={33pt},pagestyle={fancy},fixskip=true}} %% 设置章标题为字号小二，黑体，阿拉伯数字，章节标题与后面下方之间的距离为33pt
+\CTEXsetup[format={\bfseries\raggedright}]{section}%%section标题左对齐
+\ctexset{section={format+={\zihao{3}\heiti},afterskip={22pt}}} %% 设置节标题为字号三号，黑体，阿拉伯数字，章节标题与后面下方之间的距离为22pt
+\ctexset{subsection={format+={\zihao{4}\heiti},afterskip={13.5pt}}} %% 设置二级节标题为字号四号，黑体，阿拉伯数字，章节标题与后面下方之间的距离为13.5pt
+%\ctexset{subsubsection={format+={\zihao{-4}\heiti}, afterskip={7pt}}} %% 设置三级节标题为字号小四号，黑体，阿拉伯数字，章节标题与后面下方之间的距离为7pt
+%\ctexset{paragraph/afterskip={6pt}}
+
+\addbibresource{biber.bib} %% 加入参考文献书库库文件
+
+\begin{document}
+
+\include{chap/Cover.tex}
+
+
+\frontmatter %开始前面部分，从此页码为罗马数字
+\let\cleardoublepage\clearpage %取消每章偶数页空白
+
+
+\include{chap/Declaration.tex}
+
+\setlength{\headwidth}{146mm} %设置页眉宽度
+\newgeometry{left=3.2cm,right=3.2cm,top=3.5cm,bottom=3.5cm} %定义正文页间距
+\include{chap/Abstract.tex}  %摘要
+
+
+\tableofcontents %目录
+% 插图目录，如不需要，删去
+{%
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\figurename~\oldnumberline}%
+\listoffigures%
+}
+
+% 表格目录，如不需要，删去
+{%
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\tablename~\oldnumberline}%
+\listoftables%
+}
+
+\include{chap/abbreviation.tex}  %缩略词表
+
+\mainmatter %开启章节序号计数，重置页码，页码使用阿拉伯数字;
+\include{chap/Chapter1.tex}
+\include{chap/Chapter2.tex}
+
+\backmatter %关闭章节序号，对页码没有影响;
+\include{chap/Acknowledgements.tex}
+%\begin{spacing}{1.3} %%可以适当调整spacing环境的参数，来控制参考文献的行距
+\printbibliography[heading=bibintoc, title={参考文献}] %% 打印参考文献，采用了不同的颜色来区分各参考文献条目的内容
+%\end{spacing}
+\include{chap/Achievements.tex}
+
+\end{document}

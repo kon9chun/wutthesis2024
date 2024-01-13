@@ -1,0 +1,241 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Zhu2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e035a96d49b4284d9dae8141824ebdf9}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Guorong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37bf73b5e46ca72c0011d13c99362847}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=021f358326453a3949c0642ce583ff6a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c13f0860d3450298a5c6ff6d883ee2e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jianqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fed866aa96208c113abf3617b4e27f0a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Geng},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \name{namea}{6}{}{%
+        {{hash=e035a96d49b4284d9dae8141824ebdf9}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Guorong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37bf73b5e46ca72c0011d13c99362847}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=021f358326453a3949c0642ce583ff6a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c13f0860d3450298a5c6ff6d883ee2e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jianqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fed866aa96208c113abf3617b4e27f0a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Geng},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{fullhash}{b44a1586766fa68e691ec29dc1218e02}
+      \strng{bibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{authorbibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{authornamehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{authorfullhash}{b44a1586766fa68e691ec29dc1218e02}
+      \strng{nameabibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{nameanamehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{nameafullhash}{b44a1586766fa68e691ec29dc1218e02}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the growing demand of safety and accurate control for electric vehicles, it is urgent to develop a physics-based electrochemical model of lithium-ion battery with simple calculation and high accuracy over wide temperature range for application in battery management system (BMS). However, traditional electrochemical models are too complex to be applied in real usage, and most of them fail to capture thermal characteristics of the cell. Therefore, a fractional-order model of lithium-ion battery considering polarization in electrolyte and thermal effect (FOMeT) is proposed in this paper. The fractional-order model (FOM) is improved by considering the polarization in electrolyte. The particle thermal model is proposed to describe the heat generation and absorption of the cell. Finally, the FOM considering electrolyte polarization and the particle thermal model are combined to form FOMeT by coupling the cell temperature and dynamics of lithium-ion. The results show that the proposed model performs high voltage accuracy and temperature accuracy over wide temperature range (273.15K∼318.15K) and wide current load range (0.5C∼2C).}
+      \field{issn}{0013-4686}
+      \field{journaltitle}{Electrochimica Acta}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{A fractional-order model of lithium-ion battery considering polarization in electrolyte and thermal effect}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{438}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{141461}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.electacta.2022.141461
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0013468622016188
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0013468622016188
+      \endverb
+      \keyw{Lithium-ion battery,Fractional-order model,Electrolyte polarization,Thermal effect}
+    \endentry
+    \entry{Zhu2023a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e035a96d49b4284d9dae8141824ebdf9}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Guorong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37bf73b5e46ca72c0011d13c99362847}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=021f358326453a3949c0642ce583ff6a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c13f0860d3450298a5c6ff6d883ee2e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jianqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=aa7cc58312ed2ab3a02b2ce386a5f47a}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Chunhu},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{namea}{6}{}{%
+        {{hash=e035a96d49b4284d9dae8141824ebdf9}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Guorong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37bf73b5e46ca72c0011d13c99362847}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=021f358326453a3949c0642ce583ff6a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c13f0860d3450298a5c6ff6d883ee2e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jianqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=aa7cc58312ed2ab3a02b2ce386a5f47a}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Chunhu},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{fullhash}{75093ecca7beaaf5a0ecb95e3e8ca03b}
+      \strng{bibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{authorbibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{authornamehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{authorfullhash}{75093ecca7beaaf5a0ecb95e3e8ca03b}
+      \strng{nameabibnamehash}{e470fdd737737f68bb34897dd916ebb9}
+      \strng{nameanamehash}{cd705a305f8f603e76698dd7d55d49a6}
+      \strng{nameafullhash}{75093ecca7beaaf5a0ecb95e3e8ca03b}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate state of health (SOH) estimation of lithium-ion batteries is critical for the safe and reliable operation of battery power system. To achieve better SOH estimation with low computational complexity, a fractional-order model considering electrolyte polarization and aging mechanism (FOMeA) is proposed. The proposed model simplifies solid phase lithium-ion distribution with fractional-order Padé approximation and electrolyte phase lithium-ion distribution with a two-state system. The solid electrolyte interphase (SEI) layer formation and lithium plating side reactions, which lead to battery aging, are modeled to establish the relationship between the cycle number and the aging parameters in the proposed simplified electrochemical model. Finally, FOMeA is compared with the pseudo-2D (P2D) aging model. The result shows that FOMeA can achieve accurate voltage prediction and SOH estimation in whole battery cycle life, and greatly save computational time.}
+      \field{issn}{2352-152X}
+      \field{journaltitle}{Journal of Energy Storage}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{A fractional-order electrochemical lithium-ion batteries model considering electrolyte polarization and aging mechanism for state of health estimation}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{72}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{108649}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.est.2023.108649
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352152X23020467
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352152X23020467
+      \endverb
+      \keyw{Lithium-ion batteries,Simplified electrochemical model,SEI layer,Lithium plating,State of health estimation}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
