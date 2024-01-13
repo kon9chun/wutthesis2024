@@ -3,4 +3,4 @@
 # 编译工具
 本人使用MiKTeX编译工具，下载网址https://miktex.org/ 。习惯用其他的LaTeX编译工具的同学请自行选择。
 # 使用方式
-模板使用方式：先刷一遍XeLaTeX，再刷一遍biber，最后刷一遍XeLaTeX。
+模板使用方式：打开main.tex先刷一遍XeLaTeX，再刷一遍biber，最后刷一遍XeLaTeX。
